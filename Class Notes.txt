@@ -1,0 +1,45 @@
+### DAY 1:  14th FEB 2023
+
+var1 = 50
+var4 = 55
+var2 <- 6
+var3 <<- 7
+cat(var1, var4)
+print(var1 + var4)
+print('var1 + var4')  #character
+cat('var1 + var4=',var1 + var4)
+
+#variable names - can have any character, number, _ .
+#name shouldnt start with a number,
+#variable name can start with a . but not followed by a number
+#invalid names: 2var, .2var,var$, _var
+
+#class
+var2 <- 6  #"numeric"
+print(class(var2))
+
+var2 <- 6.0  #"numeric"
+print(class(var2))
+
+var2 <- 6L  #"integer"
+print(class(var2))
+
+var2 <- "6L"  #"character"
+print(class(var2))
+
+var2 = TRUE  #logical
+print(class(var2))
+
+var1 = 5
+var2 = 15
+print(var1 + var2*2 -10)
+print(var1 - var2)
+
+print(var1 * var2)
+print(var1 / var2)
+
+print(var1 %% var2)  #modulo - remainder
+print(var1 ^ var2)  #power:
+
+
+###
